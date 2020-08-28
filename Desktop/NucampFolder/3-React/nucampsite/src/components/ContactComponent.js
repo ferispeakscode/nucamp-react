@@ -111,16 +111,16 @@ class Contact extends Component {
                                         }}
                                     />
                                     <Errors
-                                            className="text-danger"
-                                            model=".lastName"
-                                            show="touched"
-                                            component="div"
-                                            messages={{
-                                                required: "Required",
-                                                minLength: "Must be at least 2 characters",
-                                                maxLength: "Must be 15 characters or less"
-                                            }}
-                                        />
+                                        className="text-danger"
+                                        model=".lastName"
+                                        show="touched"
+                                        component="div"
+                                        messages={{
+                                            required: "Required",
+                                            minLength: "Must be at least 2 characters",
+                                            maxLength: "Must be 15 characters or less"
+                                        }}
+                                    />
                                 </Col>                        
                             </Row>
                             <Row className="form-group">
@@ -137,17 +137,17 @@ class Contact extends Component {
                                         }}
                                     />
                                     <Errors
-                                            className="text-danger"
-                                            model=".phoneNum"
-                                            show="touched"
-                                            component="div"
-                                            messages={{
-                                                required: "Required",
-                                                minLength: "Must be at least 10 numbers",
-                                                maxLength: "Must be 15 numbers or less",
-                                                isNumber: "Must be a number"
-                                            }}
-                                        />
+                                        className="text-danger"
+                                        model=".phoneNum"
+                                        show="touched"
+                                        component="div"
+                                        messages={{
+                                            required: "Required",
+                                            minLength: "Must be at least 10 numbers",
+                                            maxLength: "Must be 15 numbers or less",
+                                            isNumber: "Must be a number"
+                                        }}
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
@@ -162,15 +162,15 @@ class Contact extends Component {
                                         }}
                                     />
                                     <Errors
-                                            className="text-danger"
-                                            model=".email"
-                                            show="touched"
-                                            component="div"
-                                            messages={{
-                                                required: "Required",
-                                                validEmail: "Invalid email address"
-                                            }}
-                                        />
+                                        className="text-danger"
+                                        model=".email"
+                                        show="touched"
+                                        component="div"
+                                        messages={{
+                                            required: "Required",
+                                            validEmail: "Invalid email address"
+                                        }}
+                                    />
                                 </Col>
                             </Row>
                             <Row className="form-group">
@@ -187,7 +187,7 @@ class Contact extends Component {
                                     </div>
                                 </Col>
                                 <Col md={4}>
-                                    <Control.select model=".contactType" name="contactType"
+                                    <Control.select model=".contactType" id="contactType" name="contactType"
                                         className="form-control">
                                         <option>By Phone</option>
                                         <option>By Email</option>
